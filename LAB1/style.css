@@ -1,0 +1,7 @@
+article {
+    max-width: 500px;
+    text-align: justify;
+    hyphens: auto; /*  Łamanie słów! */ 
+    margin: 0 auto; /* 1. Top/Bottom | 2. Left/Right */
+}
+
