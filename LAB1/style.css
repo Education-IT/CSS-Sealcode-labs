@@ -5,3 +5,13 @@ article {
     margin: 0 auto; /* 1. Top/Bottom | 2. Left/Right */
 }
 
+/* https://systemfontstack.com/ */
+
+h1,h2{
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+p{
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
