@@ -1,22 +1,59 @@
-article {
-    max-width: 500px;
-    text-align: justify;
-    hyphens: auto; /*  Łamanie słów! */ 
-    margin: 0 auto; /* 1. Top/Bottom | 2. Left/Right */
+html{
+    scroll-behavior: smooth;
+    
 }
+
+article {
+  max-width: 600px;
+  text-align: justify;
+  hyphens: auto; /*  Łamanie słów! */
+  margin: 0 auto; /* 1. Top/Bottom | 2. Left/Right */
+}
+
+/* jednostka rem skaluje się wraz z standardowym rozmiarem przeglądarki
+   jednostka 100vw  view-width 100 = 100% szerokosci ekranu
+*/
+
+img {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: calc(
+    100vw - 2 * 8px
+  ); /*Możemy zobaczyć za pomocą F12 jakie są marginesy | dzięki temu obrazki nie będą szersze niż ekran*/
+  height: auto;
+}
+
+.img-right {
+  float: right;
+  height: auto;
+  width: 300px;
+}
+
+.img-right, .shape{
+    shape-outside: polygon(235px 37px, 180px 336px, 146px 336px, 118px 268px, 106px 164px, 88px 54px, 109px 37px)
+}
+
+.img-left {
+  float: left;
+  height: auto;
+  width: 200px;
+  }
 
 /* https://systemfontstack.com/ */
 
-
-h1{
-    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+h1 {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+    monospace;
 }
 
-h2{
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
 }
 
-p{
-    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+p {
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+    Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol;
 }
-
